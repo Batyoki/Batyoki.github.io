@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Connect · Yash Halbhavi</title>
+<meta name="description" content="Research, internships, or a robotics or markets problem: get in touch with Yash Halbhavi.">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-nav">
+  <div class="wrap">
+    <a class="brand" href="index.html">yash@halbhavi</a>
+    <ul class="nav-links">
+      <li><a href="about.html">/about</a></li>
+      <li><a href="projects.html">/projects</a></li>
+      <li><a href="connect.html" aria-current="page">/connect</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <header class="page-head">
+    <div>
+      <span class="eyebrow">04 / CONNECT</span>
+      <h1>Open a connection.</h1>
+      <p class="muted" style="font-size: 17px">Research, internships, a robotics or markets problem you want help with. Three packets and we're talking.</p>
+    </div>
+  </header>
+
+  <div class="connect">
+    <svg class="shake" id="shake" viewBox="0 0 420 340" role="img" aria-label="TCP handshake between you and Yash: SYN when you write, SYN-ACK when Yash replies, ACK when you build something together." fill="none">
+      <g font-size="13" fill="#0B2545" font-weight="500" font-family="'Space Grotesk', sans-serif"><text x="60" y="20" text-anchor="middle">You</text><text x="360" y="20" text-anchor="middle">Yash</text></g>
+      <g stroke="#E4F0FB" stroke-width="1.5"><line x1="60" y1="56" x2="60" y2="330"/><line x1="360" y1="56" x2="360" y2="330"/></g>
+      <circle cx="60" cy="40" r="6" fill="#1F6FC5"/>
+      <clipPath id="me2"><circle cx="360" cy="40" r="14"/></clipPath>
+      <circle cx="360" cy="40" r="14" fill="#E4F0FB"/>
+      <image href="assets/img/yash-smile-duo.jpg" x="346" y="26" width="28" height="28" preserveAspectRatio="xMidYMid slice" clip-path="url(#me2)"/>
+      <circle cx="360" cy="40" r="14" fill="none" stroke="#1F6FC5" stroke-width="1.5"/>
+      <g stroke-width="1.5" stroke-linecap="round">
+        <g class="seg" data-step="1"><path d="M60 80 L360 130"/><path d="M360 130 l-12 -6 M360 130 l-10 6"/></g>
+        <g class="seg" data-step="2"><path d="M360 170 L60 220"/><path d="M60 220 l12 -6 M60 220 l10 6"/></g>
+        <g class="seg" data-step="3"><path d="M60 260 L360 310" stroke-dasharray="5 5"/><path d="M360 310 l-12 -6 M360 310 l-10 6"/></g>
+      </g>
+      <text class="lbl" data-step="1" x="150" y="88" transform="rotate(9.5 150 88)">SYN · you write</text>
+      <text class="lbl" data-step="2" x="150" y="186" transform="rotate(-9.5 150 186)">SYN-ACK · I write back</text>
+      <text class="lbl" data-step="3" x="150" y="268" transform="rotate(9.5 150 268)">ACK · we build it</text>
+    </svg>
+
+    <form class="form" id="contact" novalidate>
+      <div class="field"><label for="n">SRC · your name</label><input id="n" name="name" type="text" autocomplete="name" required></div>
+      <div class="field"><label for="e">REPLY-TO · your email</label><input id="e" name="email" type="email" autocomplete="email" required></div>
+      <div class="field"><label for="m">PAYLOAD · message</label><textarea id="m" name="message" rows="5" required></textarea></div>
+      <button class="btn btn-primary" type="submit">Send SYN →</button>
+      <p class="form-status" id="status" role="status" aria-live="polite"></p>
+      <p class="form-note">This opens your email app with the message filled in. No form service, nothing stored.</p>
+    </form>
+  </div>
+
+  <div class="channels">
+    <a class="channel" href="mailto:CS23BT069@iitdh.ac.in"><span>PORT 25 · EMAIL</span><span>CS23BT069@iitdh.ac.in</span></a>
+    <a class="channel" href="https://www.linkedin.com/in/yash-halbhavi-53672927b/" target="_blank" rel="noopener"><span>PORT 443 · LINKEDIN</span><span>in/yash-halbhavi ↗</span></a>
+    <a class="channel" href="https://github.com/Batyoki" target="_blank" rel="noopener"><span>PORT 22 · GITHUB</span><span>@Batyoki ↗</span></a>
+    <a class="channel" href="assets/yash-halbhavi-resume.pdf" download><span>GET /resume.pdf</span><span>Download résumé ↓</span></a>
+  </div>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="tag"><img src="assets/img/yash-smile-duo.jpg" alt="" width="36" height="36"><div><strong>Yash Halbhavi</strong><span>CSE · IIT Dharwad</span></div></div>
+    <nav class="foot-links" aria-label="Elsewhere">
+      <a href="mailto:CS23BT069@iitdh.ac.in">email</a>
+      <a href="https://www.linkedin.com/in/yash-halbhavi-53672927b/" target="_blank" rel="noopener">linkedin ↗</a>
+      <a href="https://github.com/Batyoki" target="_blank" rel="noopener">github ↗</a>
+      <a href="assets/yash-halbhavi-resume.pdf">résumé ↓</a>
+    </nav>
+  </div>
+</footer>
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>
